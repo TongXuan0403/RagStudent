@@ -1,0 +1,16 @@
+[project]
+name = "konwledge-base"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Miku_Tog", email = "TongXuan0403@outlook.com" }
+]
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+konwledge-base = "konwledge_base:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
